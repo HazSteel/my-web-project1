@@ -80,6 +80,7 @@
 .mem  {
     display: flex;
     align-items: flex-start;
+    justify-content: space-evenly;
 
 
  
@@ -99,12 +100,17 @@
     
     
 }
-#Image {
-width: 800px;
-padding-left: 350px;
-height:500px
+ 
+.Ima > img {
+   
+    height: 365px;
 
 }
+#Al {
+    width: 600;
+}
+
+
 
 .D {
     margin: 10px;
@@ -164,8 +170,3 @@ height:500px
 
 
 
-#Image {
-    display: flex;
-    justify-self: center;
-    align-self: center;
-}
